@@ -8,7 +8,7 @@ Download and read newest paper on arxiv by qwen-long.
 + 申请Qwen api
 + 申请邮箱授权码
 + 调整parameters_examples.json中的参数
-+ 根据自己的兴趣调整arxiv_func.py中qwen_read函数和summary_and_filter中的prompt、
++ 根据自己的兴趣调整arxiv_func.py中qwen_read函数和summary_and_filter中的prompt
 
 # 例子
 example文件夹中存储了运行阅读2024.06.26中文章总结和筛选的结果。
