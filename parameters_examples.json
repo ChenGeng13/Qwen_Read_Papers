@@ -1,0 +1,1 @@
+{"qwen_long_api": "YOUR_API_HERE", "default_folder": "YOUR_DEFAULT_FOLDER", "latest_date": "2024-06-26", "query": "cat:stat.ME OR cat:stat.ML OR cat:stat.TH", "max_search_results": 200, "sender": "YOUR_EMAIL_ADDRESS", "receivers": "YOUR_EMAIL_ADDRESS", "auth_code": "YOUR_EMAIL_AUTH_CODE", "sender_name": "YOUR_NAME", "receiver_name": "YOUR_NAME"}
