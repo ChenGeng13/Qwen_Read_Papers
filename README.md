@@ -14,4 +14,5 @@ Download and read newest paper on arxiv by qwen-long.
 example文件夹中存储了运行阅读2024.06.26中文章总结和筛选的结果。
 
 # 注意
-由于网络问题和Qwen的限制问题，部分文章可能阅读失败，失败文章的标题、作者和摘要会存储在error_reading.md中。
++ 由于网络问题和Qwen的限制问题，部分文章可能阅读失败，失败文章的标题、作者和摘要会存储在error_reading.md中
++ 筛选功能实测效果并不好，可能需要更合适的prompt
