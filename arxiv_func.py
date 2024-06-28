@@ -107,6 +107,7 @@ def read_day(client_arxiv, search, search_date, default_folder, qwen_client):
             elif not qwen_read(client=qwen_client, folder=new_folder, file_name=arxiv_id + ".pdf", arxiv_paper=result):
                 with open(Path(new_folder) / "error_papers.md", "a") as error_papers:
                     error_papers.write("**Title**:" + result.title + "\n")
+                    error_papers.write("**Authors**:" + ", ".join(str(author) for author in result.authors) + "\n")
                     error_papers.write("**Summary**:" + result.summary + "\n\n")
         elif(result.updated.date() < search_date):
             print("No more papers to read.")
